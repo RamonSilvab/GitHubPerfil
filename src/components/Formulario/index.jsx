@@ -25,9 +25,7 @@ const Formulario = () => {
     }, [materiaA, materiaC, materiaB])
 
     const alteraNome = (evento) => {
-        // setNome(evento.target.value); //acessando o valor do input
         setNome(estadoAnterior => {
-            // estadoAnterior = valornovo
 
             return evento.target.value;
         })

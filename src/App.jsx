@@ -18,11 +18,6 @@ function App() {
         <ReposList nomeUsuario={nomeUsuario}/>
       </>
     )}
-    
-    {/* {formularioEstaVisivel && (
-      <Formulario />
-    )};
-    <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type='button'>toggle form</button> */}
     </> 
   )
 }
